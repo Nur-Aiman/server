@@ -1,5 +1,6 @@
 import query from "../../db/index.js";
 import bcrypt from "bcryptjs";
+import 'dotenv/config'
 
 const register = async(req, res) => {
     try {
